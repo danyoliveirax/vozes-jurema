@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0px;
+    
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #013220;
+    color: white;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+main section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img-destaque {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    margin: 0 auto 10px
+    
+}
+
+.img-destaque img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #013220;
+   
+}
+
+.professores {
+    text-align: center;
+    opacity: 0,2;
+    z-index: -2;
+    
+}
+
+.professores-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+
+    
+}
+
+.professor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #013220;
+}
+
+.professor p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 50vh;
+    height: 120vh;
+    height: ;
+    
+    opacity: 1;
+    z-index: -1;
+}
+
+.apresentacao, .professores, .entre-em-contato {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #013220;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    opacity: 8;
+}
+
+@media (max-width: 1024px) {
+    .professores-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
