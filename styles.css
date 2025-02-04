@@ -97,7 +97,7 @@ h1 {
 
 .background {
     position: fixed;
-    background-size: contain;
+    background-size: cover;
     top: 0;
     left: 0;
     width: 50vh;
