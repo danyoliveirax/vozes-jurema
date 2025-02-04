@@ -11,10 +11,9 @@
 <header>
     <div class="logo"><a href="#"><img src="./Logo 1.png" alt="Logo" /></a></div>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Galeria</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#home">Home</a>
+        <a href="#professores">Professores</a>
+        <a href="#contato">Contato</a>
     </nav>
 </header>
 
@@ -22,7 +21,7 @@
 
     
 
-   <section class="apresentacao">
+   <section id="home" class="apresentacao">
         <div class="apresentacao-container"></div>
         
     </div>
@@ -38,7 +37,7 @@
         </p>
     </section>
     
-    <section class="professores">
+    <section id="professores" class="professores">
         <h2>Conheça nossos professores</h2>
         <p>Apresentação da equipe de professores altamente qualificados e experientes.</p>
         <div class="professores-container">
@@ -53,13 +52,35 @@
         </div>
     </section>
     
-    <section class="entre-em-contato">
+    <section id="contato" class="entre-em-contato">
         <h2>Garanta já a sua vaga!</h2>
         <p>Nossa escola fica localizada na <b>Rua Dr. Victor Eugênio do Sacramento, 260.</b>
             Proximo ao Metrô Jabaquara.<br><br>
-            <h2><b>Nossas aulas são ministradas aos sábados.</b></h2>
+        <!-- Mapa do Google Maps -->
+    <div class="map-container">
+        <iframe 
+            width="100%" 
+            height="300" 
+            style="border:0; border-radius: 10px;" 
+            loading="lazy" 
+            allowfullscreen 
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.2699059863246!2d-46.6459469251132!3d-23.5946372637231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3cf57df3e3%3A0xe2b5c1c9a6e3a542!2sR.%20Dr.%20Victor%20Eug%C3%AAnio%20do%20Sacramento%2C%20260%20-%20S%C3%A3o%20Paulo%20-%20SP%2C%2004301-080!5e0!3m2!1spt-BR!2sbr!4v1706789456789">
+        </iframe>
+    </div>    
+            
         </p>
+
+        <div class="whatsapp-button">
+            <a href="https://wa.me/5511947861571" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                Fale conosco no WhatsApp
+            </a>
+        </div>
+
     </section>
+
+   
 </main>
 
 <img src="./jurema sozinha (3125 x 3125 px).png" alt="Imagem fixa" class="fixed-image">
