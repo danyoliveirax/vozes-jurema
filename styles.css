@@ -100,7 +100,7 @@ h1 {
     top: 0;
     left: 0;
     width: 50vh;
-    height: 120vh;
+    height: 100vh; /* Garante que ocupe apenas a altura visível */
     opacity: 1;
     z-index: -1;
 }
