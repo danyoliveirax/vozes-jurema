@@ -62,24 +62,6 @@ h1 {
     text-align: center;
 }
 
-.img-destaque {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2px;
-    margin: 0 auto 10px
-    
-}
-
-.img-destaque img {
-    max-width: 100%;
-    height: auto;
-    border: 3px solid #013220;
-   
-}
-
 .professores {
     text-align: center;
     opacity: 0,2;
@@ -91,9 +73,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 10px;
-
-    
+    margin-top: 10px;    
 }
 
 .professor {
@@ -115,7 +95,7 @@ h1 {
     font-weight: bold;
 }
 
-.fixed-image {
+.background {
     position: fixed;
     top: 0;
     left: 0;
