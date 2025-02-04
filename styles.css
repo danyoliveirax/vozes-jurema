@@ -86,7 +86,7 @@ h1 {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     border: 3px solid #013220;
 }
 
@@ -97,12 +97,18 @@ h1 {
 
 .background {
     position: fixed;
+    background-size: contain;
     top: 0;
     left: 0;
     width: 50vh;
-    height: 100vh; /* Garante que ocupe apenas a altura visível */
+    height: 140vh; /* Garante que ocupe apenas a altura visível */
     opacity: 1;
     z-index: -1;
+}
+
+.background img {
+    width: 120px;
+    height: 120px;
 }
 
 .apresentacao, .professores, .entre-em-contato {
